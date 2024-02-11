@@ -6,7 +6,6 @@ let name = "Suman"
 let age = 18
 let isLoggedIn = true
 
-
 //number => 2 to power 53
 // bigint
 // string => ""
