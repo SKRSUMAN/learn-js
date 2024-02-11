@@ -32,9 +32,33 @@ let myObj = {
 // console.log(myObj);
 
 const myFunction = function(){
-    console.log("Hey Suman");
+    // console.log("Hey Suman");
 }
 
 myFunction();
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+
+// +++++++++++++++++++++++ Memory in js ++++++++++++++++++++++++++++
+
+// stack(primitive), Heap(non-primitive)
+
+let myYoutubeName = "SkrSumandotcom"
+
+let anotherName = "SkrTrickyDotCom"
+anotherName = "Youtuber"
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let userOne ={
+    email: "usergoogle.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "userOne@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
