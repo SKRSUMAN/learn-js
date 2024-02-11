@@ -15,6 +15,7 @@ let isLoggedIn = true
 // symbol => unique
 
 
+
 // object 
 
 console.log(typeof(null)); //Object
