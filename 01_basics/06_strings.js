@@ -6,7 +6,7 @@ const repoCount = 8
 // console.log(`Hello my name is ${name} and my repo Count is ${repoCount}`);
 
 
-const myGfName = new String("Angel-Anjali")
+const myGfName = new String("Alpha-Beta-Gamma")
 
 // console.log(myGfName);
 // console.log(myGfName[2]);
